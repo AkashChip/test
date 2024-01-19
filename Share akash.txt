@@ -2,6 +2,8 @@ https://expo.dev/artifacts/eas/bTAx3bfGLzEASreK6xBVUM.aab
 https://expo.dev/artifacts/eas/grHSLm7LgRZH5bYJsdxFJY.aab
 
 
+https://github.com/google/bundletool/releases
+
 npm install
 eas build
 java -jar bundletool-all-1.15.6.jar build-apks --bundle=E:/apk/abb/application-7d107b0e-8aae-41b1-bbef-4017d1ff4490.aab --output=E:/apk/apks/app.apks --mode=universal
