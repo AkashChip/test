@@ -8,6 +8,8 @@ npm install
 eas build
 java -jar bundletool-all-1.15.6.jar build-apks --bundle=E:/apk/abb/application-7d107b0e-8aae-41b1-bbef-4017d1ff4490.aab --output=E:/apk/apks/app.apks --mode=universal
 
+java -jar bundletool-all-1.15.6.jar build-apks --bundle=your-app.aab --output=build/output.apks --mode=universal
+ 
 java -jar bundletool-all-1.15.6.jar get-device-spec --output=E:/apk/other-device-spec.json
 
 java -jar bundletool-all-1.15.6.jar extract-apks --apks=D:/apk/apks/app.apks --output-dir=D:/apk/apk --device-spec=D:/apk/other-device-spec.json
