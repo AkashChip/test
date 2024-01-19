@@ -1,14 +1,12 @@
 https://expo.dev/artifacts/eas/bTAx3bfGLzEASreK6xBVUM.aab
 https://expo.dev/artifacts/eas/grHSLm7LgRZH5bYJsdxFJY.aab
-
+https://expo.dev/artifacts/eas/v5YA18kXGa6wjYgXLAhkXv.aab
 
 https://github.com/google/bundletool/releases
 
 npm install
 eas build
-java -jar bundletool-all-1.15.6.jar build-apks --bundle=E:/apk/abb/application-7d107b0e-8aae-41b1-bbef-4017d1ff4490.aab --output=E:/apk/apks/app.apks --mode=universal
-
-java -jar bundletool-all-1.15.6.jar build-apks --bundle=your-app.aab --output=build/output.apks --mode=universal
+java -jar bundletool-all-1.15.6.jar build-apks --bundle=D:/apk/aab/application-eb8ade65-372b-4f30-a4b9-9c7202c0ad9f.aab --output=D:/apk/apks/app.apks --mode=universal
  
 java -jar bundletool-all-1.15.6.jar get-device-spec --output=E:/apk/other-device-spec.json
 
